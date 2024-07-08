@@ -10,27 +10,38 @@ header {
     padding: 20px;
     text-align: center;
 }
-header h1 {
-    font-size: 3em;
+header .logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
 }
-header p {
-    font-size: 1.2em;
+header .store-name {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive; /* Fuente llamativa */
 }
 nav {
-    display: flex;
-    justify-content: center;
     background-color: #ffb3e6;
     padding: 10px;
 }
-nav a {
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
     color: #333;
-    padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
 }
-nav a:hover {
+nav ul li a:hover {
     background-color: #ff66b2;
     color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 section {
     padding: 20px;

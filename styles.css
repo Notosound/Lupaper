@@ -1,11 +1,12 @@
 body {
-  background-color: #f5f5f5;
+  background-image: url('images/fondo-kawaii.jpg');
+  background-size: cover;
   font-family: 'Poppins', sans-serif;
   color: #333;
 }
 
 .header {
-  background-color: #ffe4e1;
+  background-color: rgba(255, 228, 225, 0.9);
   text-align: center;
   padding: 20px;
 }
@@ -53,6 +54,12 @@ h1 {
   border: 1px solid #ddd;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
 }
 
 .product img {
@@ -66,6 +73,7 @@ h1 {
   background-color: #ffb6c1;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .contact a {
@@ -73,7 +81,8 @@ h1 {
 }
 
 .footer {
-  background-color: #ffe4e1;
+  background-color: rgba(255, 228, 225, 0.9);
   text-align: center;
   padding: 10px;
 }
+
